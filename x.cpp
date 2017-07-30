@@ -1,5 +1,7 @@
 #pragma once
 
+// allow mandatory fields
+
 struct Message_V1
 {
     int id;
