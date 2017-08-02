@@ -86,24 +86,14 @@ Example for a boolean:
 - using an enum value followed by a byte set to '1' or '0'
 - "burning" two enum values to set the flag to 'true' or 'false'
 
-+-----------------+-------+
 | implem. version | byte  |
-+-----------------+-------+
+|-----------------|-------|
 | message type    | byte  |
-+-----------------+-------+
 | type of data 1  | enum  |
-+-----------------+-------+
 | data 1          | bytes |
-+-----------------+-------+
 | ...             | ...   |
-+-----------------+-------+
 | flag            | enum  |
-+-----------------+-------+
 | ...             | ...   |
-+-----------------+-------+
 | type of data N  | enum  |
-+-----------------+-------+
 | data N          | bytes |
-+-----------------+-------+
 | sentinel value  | enum  |
-+-----------------+-------+
